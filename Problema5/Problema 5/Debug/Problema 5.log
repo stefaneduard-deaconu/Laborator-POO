@@ -1,0 +1,4 @@
+﻿  Problema 5.cpp
+C:\Users\rober\Desktop\Problema 5\Problema 5\Problema 5.cpp(6,2): warning C4091: 'typedef ': ignored on left of 'date' when no variable is declared
+C:\Users\rober\Desktop\Problema 5\Problema 5\Problema 5.cpp(10,2): warning C4091: 'typedef ': ignored on left of 'eveniment' when no variable is declared
+  Problema 5.vcxproj -> C:\Users\rober\Desktop\Problema 5\Debug\Problema 5.exe
