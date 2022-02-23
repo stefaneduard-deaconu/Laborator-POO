@@ -1,0 +1,8 @@
+﻿  7.cpp
+C:\Users\rober\Desktop\fmi\Laborator-POO\lab2\7\7\7.cpp(78,31): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\rober\Desktop\fmi\Laborator-POO\lab2\7\7\7.cpp(81,29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\rober\Desktop\fmi\Laborator-POO\lab2\7\7\7.cpp(116,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\rober\Desktop\fmi\Laborator-POO\lab2\7\7\7.cpp(117,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\rober\Desktop\fmi\Laborator-POO\lab2\7\7\7.cpp(109,13): warning C4101: 'c': unreferenced local variable
+C:\Users\rober\Desktop\fmi\Laborator-POO\lab2\7\7\7.cpp(109,15): warning C4101: 'd': unreferenced local variable
+  7.vcxproj -> C:\Users\rober\Desktop\fmi\Laborator-POO\lab2\7\Debug\7.exe

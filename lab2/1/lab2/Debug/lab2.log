@@ -1,0 +1,4 @@
+﻿  lab2.cpp
+C:\Users\rober\Desktop\lab2\lab2\lab2.cpp(43,11): warning C4101: 'i': unreferenced local variable
+C:\Users\rober\Desktop\lab2\lab2\lab2.cpp(43,9): warning C4101: 'n': unreferenced local variable
+  lab2.vcxproj -> C:\Users\rober\Desktop\lab2\Debug\lab2.exe
