@@ -1,0 +1,5 @@
+﻿  proiect1.1.cpp
+C:\Users\rober\Desktop\fmi\Laborator-POO\proiect1.5\proiect1.1.cpp(19,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\rober\Desktop\fmi\Laborator-POO\proiect1.5\proiect1.1.cpp(34,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\rober\Desktop\fmi\Laborator-POO\proiect1.5\proiect1.1.cpp(43,35): warning C4018: '<': signed/unsigned mismatch
+  proiect1.1.vcxproj -> C:\Users\rober\Desktop\fmi\Laborator-POO\proiect1.5\Debug\proiect1.1.exe
