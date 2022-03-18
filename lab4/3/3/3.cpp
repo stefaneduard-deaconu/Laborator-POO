@@ -28,6 +28,10 @@ public:
         os << "Numar de vizitatori: " << a.nr_vizitatori << endl << "Coordonata x: " << a.x << endl << "Coordonata y: " << a.y << endl<<endl;
         return os;
     }
+
+    friend double distanta(const InterestPoint &p1, const InterestPoint &p2) {
+        // TODO sa calculam aici distanta.
+    }
 };   
 
 InterestPoint::InterestPoint() {
@@ -76,6 +80,9 @@ void traseumaxim(BikeTrail a)
     for (int i = 0; i < a.puncte_interes.size() - 2; i++)
         for (int j = i + 1; j < a.puncte_interes.size() - 1; j++)
             for (int k = j + 1; k < a.puncte_interes.size(); k++) {
+                if (distanta(a.puncte_interes[j], a.puncte_interes[i])) // daca te uiti acum la cod, este usor de vazut ca la conditie ai pus doar distanta
+                // pentru a fi corect poti pune ca distanta(i,j) + distanta(j,k) vorba vine, adica de la punctele de acele indice,
+                //  trebuie sa fie mai mare decat un maxDist :). Reusesti!
                 if ((float)sqrt((a.puncte_interes[j].getx() - a.puncte_interes[i].getx()) * (a.puncte_interes[j].getx() - a.puncte_interes[i].getx()) + (a.puncte_interes[j].gety() - a.puncte_interes[i].gety()) * (a.puncte_interes[j].gety() - a.puncte_interes[i].gety())))
                 {
                     imax = i;
@@ -91,8 +98,8 @@ void traseumaxim(BikeTrail a)
                 }
             }
     cout << a.puncte_interes[imax] << endl << a.puncte_interes[jmax] << endl << a.puncte_interes[kmax] << endl << "Distanta: " << max << endl << "Numarul de vizitatori: " << vmax << endl;
-
 }
+// De asemenea, poti implementa un traseuMaximVizitatori pentru cerinta e), si vei avea 10p din 20p. Daca iti doresti 20p este nevoie sa implementezi 6.
 
 BikeTrail::BikeTrail() {}
 
